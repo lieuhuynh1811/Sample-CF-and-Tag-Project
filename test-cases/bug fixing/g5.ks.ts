@@ -4,27 +4,31 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
   await web.openBrowser("https://katalon-demo-cura.herokuapp.com");
   await web.click({
     type: "Web",
-    id: "6a7fa931-4d7e-4fed-84cb-b3370d029cb5",
-    attributes: { class: "fa fa-bars" },
-    childIndex: 1,
-    hashes: { "md5.v1": "7404fc617199bc0378c5447931ad5838" },
-    name: "i - fa fa-bars",
+    id: "e1ae2165-f9d3-4cc4-aadd-df949afe935e",
+    attributes: {
+      id: "menu-toggle",
+      href: "#",
+      class: "btn btn-dark btn-lg toggle",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "bd1a4d233fee02bdbcf85af89867c9de" },
+    name: "a - btn btn-dark btn-lg toggle",
     selectors: [
       {
-        id: "2b5a6c70-0e48-4a1e-94e5-c8a02ba287cf",
+        id: "6d3cdcd9-eee3-436b-814d-5b86f9ffef87",
         type: "CSS",
-        value: ".fa-bars",
+        value: "#menu-toggle",
         isDefault: true,
       },
       {
-        id: "5b8d2bd8-bf40-4725-986d-1ece9240396e",
+        id: "e7730880-d67d-40c2-ace6-b69fd2bafc68",
         type: "Attribute",
         value: null,
         isDefault: true,
       },
     ],
     selectorType: "CSS",
-    tag: "i",
+    tag: "a",
     text: "",
     pageUrl: "https://katalon-demo-cura.herokuapp.com/",
     parentIframe: null,
@@ -32,20 +36,20 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
   });
   await web.click({
     type: "Web",
-    id: "9b4b7e22-0e18-4394-af5c-41f53f620b78",
+    id: "d1a4cee9-8c35-4526-8069-77f2f5cf2a65",
     attributes: { href: "./", onclick: "$('#menu-close').click();" },
     childIndex: 1,
     hashes: { "md5.v1": "55fbd90a737c1163415dd358745da1b2" },
     name: "a - Home",
     selectors: [
       {
-        id: "b965ad0f-1264-4b62-8963-bb9afa2a31bd",
+        id: "68d15906-d7cf-45f5-bf7d-20dfdd0b278e",
         type: "CSS",
         value: 'li:nth-child(3) [href="\\.\\/"]',
         isDefault: true,
       },
       {
-        id: "033bc4f3-fc23-4653-97a4-1372ba5faf30",
+        id: "1ca45694-494c-498c-9c3b-ef558bb4ad23",
         type: "Attribute",
         value: null,
         isDefault: true,
