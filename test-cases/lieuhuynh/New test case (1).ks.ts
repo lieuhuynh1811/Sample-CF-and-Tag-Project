@@ -1,0 +1,261 @@
+import katalon from "katalon";
+
+export default katalon.testCase("New Test Case", async ({ local, web }) => {
+  await web.openBrowser("https://katalon-demo-cura.herokuapp.com");
+  await web.click({
+    type: "Web",
+    id: "f49ded10-d163-418b-acbd-cfa8c73a4c6b",
+    attributes: {
+      id: "menu-toggle",
+      href: "#",
+      class: "btn btn-dark btn-lg toggle",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "bd1a4d233fee02bdbcf85af89867c9de" },
+    name: "a - btn btn-dark btn-lg toggle",
+    selectors: [
+      {
+        id: "a6fd5d0f-0314-43e5-bc4b-be1201744c25",
+        type: "CSS",
+        value: "#menu-toggle",
+        isDefault: true,
+      },
+      {
+        id: "e3133465-0626-4432-be28-ccd71213517d",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "a",
+    text: "",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "897921a4-6147-4c1d-a491-9118cee971d5",
+    attributes: { href: "./", onclick: "$('#menu-close').click();" },
+    childIndex: 1,
+    hashes: { "md5.v1": "55fbd90a737c1163415dd358745da1b2" },
+    name: "a - Home",
+    selectors: [
+      {
+        id: "83b5ca7d-573a-45d4-8b84-bc2a1f55da22",
+        type: "CSS",
+        value: 'li:nth-child(3) [href="\\.\\/"]',
+        isDefault: true,
+      },
+      {
+        id: "9eef3040-9075-4917-933a-b9e549cf6085",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "a",
+    text: "Home",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "0889c1b4-3831-415f-b1a4-a1529b77654f",
+    attributes: {
+      id: "btn-make-appointment",
+      href: "./profile.php#login",
+      class: "btn btn-dark btn-lg",
+    },
+    childIndex: 4,
+    hashes: { "md5.v1": "3caec008087ccb7a1cb3fc698fbf83c2" },
+    name: "a - Make Appointment",
+    selectors: [
+      {
+        id: "52772368-9c11-4cb8-b711-6129da28aa64",
+        type: "CSS",
+        value: "#btn-make-appointment",
+        isDefault: true,
+      },
+      {
+        id: "9a5ff005-6503-4ab6-b16c-01f3aca83a7e",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "a",
+    text: "Make Appointment",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.doubleClick({
+    type: "Web",
+    id: "4bf46af0-ff70-4c5a-925f-7ebb17031e5e",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      placeholder: "Password",
+      "aria-describedby": "demo_password_label",
+      value: "ThisIsNotAPassword",
+      readonly: "",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "f6711b02ce671cc2b817baf776140264" },
+    name: "input - Password",
+    selectors: [
+      {
+        id: "614fe07b-0223-48ac-8958-40f22123f82e",
+        type: "CSS",
+        value: '[value="ThisIsNotAPassword"]',
+        isDefault: true,
+      },
+      {
+        id: "e533b4db-569d-4ad5-be44-4c3e13b919c3",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "ea55d65e-3277-4285-af67-7ab1dde2445d",
+    attributes: { class: "glyphicon glyphicon-lock", "aria-hidden": "true" },
+    childIndex: 1,
+    hashes: { "md5.v1": "9c99912aef6e4c73c0f20979471970f4" },
+    name: "span - glyphicon glyphicon-lock",
+    selectors: [
+      {
+        id: "1b777839-7bca-4bb4-be85-6522527e68d7",
+        type: "CSS",
+        value: ".glyphicon-lock",
+        isDefault: true,
+      },
+      {
+        id: "13a2883a-3fb8-41bb-a35d-fd0ef33f56eb",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "span",
+    text: "",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "61276417-1fb9-4671-8ff7-c115225c6a81",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      id: "txt-username",
+      name: "username",
+      placeholder: "Username",
+      value: "",
+      autocomplete: "off",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "57f176ba19cb19cc93acaba2dbde6b10" },
+    name: "input - Username",
+    selectors: [
+      {
+        id: "6f15a27f-f18d-45ae-979f-016b15e8b434",
+        type: "CSS",
+        value: "#txt-username",
+        isDefault: true,
+      },
+      {
+        id: "9b5d0b8d-6820-4dc0-a03b-ef219d0d3331",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "170b503b-0da7-4955-9e7d-7d0c2d96e289",
+    attributes: {
+      type: "password",
+      class: "form-control",
+      id: "txt-password",
+      name: "password",
+      placeholder: "Password",
+      value: "",
+      autocomplete: "off",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "fe634c654141065106a978262a410740" },
+    name: "input - Password",
+    selectors: [
+      {
+        id: "862300c8-4bcb-4e5d-8b49-fd3112c300fb",
+        type: "CSS",
+        value: "#txt-password",
+        isDefault: true,
+      },
+      {
+        id: "8462cb95-88e2-41ca-90c9-8aa117bcbb14",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "aadeef03-8fa2-4498-a2e9-af7ccf370bad",
+    attributes: { id: "btn-login", type: "submit", class: "btn btn-default" },
+    childIndex: 1,
+    hashes: { "md5.v1": "50aa64147a00037c420def1e18673ac9" },
+    name: "button - Login",
+    selectors: [
+      {
+        id: "6013dcd8-6e99-44fa-b236-c1c7c2c5a80f",
+        type: "CSS",
+        value: "#btn-login",
+        isDefault: true,
+      },
+      {
+        id: "4c486f2d-5191-45d5-970c-ee1541fc14e7",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "button",
+    text: "Login",
+    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.closeBrowser();
+});
