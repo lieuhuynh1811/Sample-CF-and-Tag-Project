@@ -1,53 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <TestSuiteEntity>
     <name>G5 Test Suite</name>
-    <testSuiteGuid>4e77fc8d-ed01-43c8-b357-f6227a9cb807</testSuiteGuid>
+    <testSuiteGuid>74aabe96-eac4-482d-a9ab-4a9894afe3f2</testSuiteGuid>
     <testCaseLink>
         <testCaseId>test-cases/regression/regression 1/regression 5</testCaseId>
-        <guid>04062735-8a9d-48f7-ab3f-10bf76032162</guid>
+        <guid>f2ba7b6a-c7c4-4aca-ad66-1dab95fdf2fb</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/regression/4.4/regression 4</testCaseId>
-        <guid>6a4e349d-0c48-48a5-af9f-d94378705cfd</guid>
+        <guid>2a5703d3-9869-4157-aeb6-09e13e00a28f</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/regression/Regression 3</testCaseId>
-        <guid>9ca7200e-36fb-4d65-b9f0-1fc508fafdbe</guid>
+        <guid>87a01f2f-c9bd-459c-a16e-ab8dc89b426a</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/lieuht96/test-folder/G5 Test Case</testCaseId>
-        <guid>3b6100a5-9af6-4d57-aa2f-7a23b232224f</guid>
+        <guid>b9d3183e-fec2-4aa5-91de-e2b0532f8344</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/lieuht96/test-folder/New test case 1</testCaseId>
-        <guid>30aa11b8-c93c-4504-b290-4f3634585819</guid>
+        <guid>23a95e00-b4f6-476a-8e7f-c04f56f8675a</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/lieuht96/test-folder/Test Case 4</testCaseId>
-        <guid>57aee648-4d9d-49e6-9948-ef6a7523ae25</guid>
+        <guid>426a1dd0-258e-4ee4-89be-5fd89fd2f376</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/lieuht96/Draft Test From Turing Team</testCaseId>
-        <guid>c37fbe73-8d45-42d3-8a27-a4e3fda8c158</guid>
+        <guid>3def086e-4349-43d7-b936-144cea7f240d</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/lieuht96/Verify the user can login</testCaseId>
-        <guid>54d089ff-06ee-4b29-a487-5026aa862674</guid>
+        <guid>d3ae423a-e1d8-4eca-8431-84755acb3b3a</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/bug fixing/draft test 1</testCaseId>
-        <guid>5b54bb2d-871b-424c-afc8-70ebe9a6dec8</guid>
+        <guid>76caf2c0-4853-4961-b9f9-c51f0512d62e</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/bug fixing/g5</testCaseId>
-        <guid>5ec1e0de-5c6e-449b-91c8-131119e4a429</guid>
-    </testCaseLink>
-    <testCaseLink>
-        <testCaseId>test-cases/New test case (11)</testCaseId>
-        <guid>1d2e4a2c-9951-4c1f-bea1-9539a2f6507d</guid>
-    </testCaseLink>
-    <testCaseLink>
-        <testCaseId>test-cases/leo</testCaseId>
-        <guid>40777751-b213-4046-877a-ede6349af762</guid>
+        <guid>714900a7-36f6-4800-8398-609eef1ad008</guid>
     </testCaseLink>
 </TestSuiteEntity>
